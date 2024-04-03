@@ -3,7 +3,7 @@
 Progress: Done
 Summary: Building simple neural network with logistic regression to understand the training process of forward propagation and backward propagation
 
-[C1_W2.pdf](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/C1_W2.pdf)
+<a href="https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/C1_W2.pdf">C1-W2 Notes<a>
 
 # Week 2 - Neural Network Basic
 
@@ -15,21 +15,21 @@ General comments:
 
 Sizes:
 
-![Untitled](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/Untitled.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/Untitled.png?raw=true)
 
 Objects:
 
-![Untitled](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/Untitled%201.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/Untitled%201.png?raw=true)
 
-![Untitled](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/Untitled%202.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/Untitled%202.png?raw=true)
 
 Common forward propagation equation examples:
 
-![Untitled](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/Untitled%203.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/Untitled%203.png?raw=true)
 
 Examples of cost function:
 
-![Untitled](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/Untitled%204.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/Untitled%204.png?raw=true)
 
 ## Deep Learning Representations
 
@@ -38,9 +38,10 @@ Examples of cost function:
 
 Here are several examples of Standard deep learning representations
 
-![Untitled](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/Untitled%205.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/Untitled%205.png?raw=true)
 
-![Untitled](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/Untitled%206.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/Untitled%206.png?raw=true)
+
 
 ## Binary Classification
 
@@ -53,7 +54,7 @@ In a binary classification problem, the result is a discrete value output. For e
 
 The goal is to train a classifier for which the input is an image represented by a feature vector, x, and predicts whether the corresponding labels is 1 or 0. In this case, whether this is a cat image(1) or non-cat image(0).
 
-![Untitled](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/Untitled%207.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/Untitled%207.png?raw=true)
 
 An image is stored in the computer in three separate matrices corresponding to the Red, Green, and Blue color channels of the image. The three matrices have the same size as the image, for example, the resolution of the cat image is 64 pixels X 64 pixels, the three matrices (RGB) are 64 X 64 each.
 
@@ -61,7 +62,7 @@ The value in a cell represents the pixel intensity which will be used to create 
 
 To create a feature vector, 𝑥, the pixel intensity values will be “ unrolled” or “ reshaped” for each color. The dimension of the input feature vector𝑥 is 𝑛= 64𝑥 64𝑥 3 = 12288.
 
-![Untitled](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/Untitled%208.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/Untitled%208.png?raw=true)
 
 ## Logistic Regression
 
@@ -71,11 +72,11 @@ Logistic regression is a learning algorithm used in a supervised learning proble
 
 Given an image represented by a feature vector 𝑥, the algorithm will evaluate the probability of a cat being in that image.
 
-[3. Logistic_Regression.pdf](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/3._Logistic_Regression.pdf)
+<a href="https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/3._Logistic_Regression.pdf">Logistic Regression Notes<a>
 
 ## Logistic Regression (Cost Function)
 
-[4. Logistic_Regression_Cost_Function.pdf](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/4._Logistic_Regression_Cost_Function.pdf)
+<a href="https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/4._Logistic_Regression_Cost_Function">Logistic Regression Cost Function Notes<a>
 
 ## Forward and Backward Propagation for Logistic Regression (Simple NN)
 
@@ -83,4 +84,4 @@ Take logistic regression as simple neural network, in forward propagation, data 
 
 In back prop calculated loss is derivate for the calculation of gradient descent. The weights are updated using the derivative of loss. 
 
-![Untitled](Week%202%20-%20Neural%20Networks%20Basic%200b010ce3e87240f189ffaf9dea5964dd/Untitled%209.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f41d2f0229ccf5b0224e7ef6cd1d152c027a7857/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W2%20-%20Neural%20Network%20Basic/Week%202%20-%20Neural%20Networks%20Basic/Untitled%209.png?raw=true)
