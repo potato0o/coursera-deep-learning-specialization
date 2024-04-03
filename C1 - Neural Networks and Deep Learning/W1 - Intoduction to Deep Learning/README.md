@@ -3,7 +3,7 @@
 Progress: Done
 Summary: Introduction to Neural Network and Supervised Learning
 
-[C1_W1.pdf](Week%201%20Introduction%20to%20Deep%20Learning%20b69c69ca582a4c30b458197ca3cd0ea7/C1_W1.pdf)
+<a href="https://github.com/potato0o/coursera-deep-learning-specialization/blob/f69c77040c5f20d0ef9c97519f416046b3f7e595/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W1%20-%20Intoduction%20to%20Deep%20Learning/Week%201%20Introduction%20to%20Deep%20Learning/C1_W1.pdf">C1-W1 Notes<a>
 
 ## 5 Courses in Specialization
 
@@ -16,7 +16,7 @@ Summary: Introduction to Neural Network and Supervised Learning
 ## Outline of this course
 
 1. Introduction
-2. Basics of neural Network Programming
+2. Basics of Neural Network Programming
 3. One Hidden Layer Neural Networks
 4. Deep Neural Networks
 
@@ -31,14 +31,15 @@ A **neural network** is a machine learning model that imitates the way the hum
     - **Hidden Layers**: One or more intermediate layers between the input and output layers.
     - **Output Layer**: The final layer that produces the network’s output.
     
-    ![Untitled](Week%201%20Introduction%20to%20Deep%20Learning%20b69c69ca582a4c30b458197ca3cd0ea7/Untitled.png)
-    
-2. **Weights and Thresholds**:
+    ![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f69c77040c5f20d0ef9c97519f416046b3f7e595/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W1%20-%20Intoduction%20to%20Deep%20Learning/Week%201%20Introduction%20to%20Deep%20Learning/Untitled.png?raw=true)
+
+
+1. **Weights and Thresholds**:
     - Each node has its own associated weight and threshold.
     - Weights determine the importance of input variables, with larger weights contributing more significantly to the output.
     - Thresholds define the activation condition for a node.
-    
-    ![Untitled](Week%201%20Introduction%20to%20Deep%20Learning%20b69c69ca582a4c30b458197ca3cd0ea7/Untitled%201.png)
+
+       ![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f69c77040c5f20d0ef9c97519f416046b3f7e595/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W1%20-%20Intoduction%20to%20Deep%20Learning/Week%201%20Introduction%20to%20Deep%20Learning/Untitled%201.png?raw=true)
     
 
 1. **Activation Function**:
@@ -52,21 +53,23 @@ A **neural network** is a machine learning model that imitates the way the hum
 - The goal is to **classify data** or **predict outcomes** accurately based on input features and their corresponding labels.
 - The data need to provide both the input and output for the machine to learn and predict the output accodingly.
 
-![Untitled](Week%201%20Introduction%20to%20Deep%20Learning%20b69c69ca582a4c30b458197ca3cd0ea7/Untitled%202.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f69c77040c5f20d0ef9c97519f416046b3f7e595/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W1%20-%20Intoduction%20to%20Deep%20Learning/Week%201%20Introduction%20to%20Deep%20Learning/Untitled%202.png?raw=true)
+
 
 - **Structured Data**: Structured data refers to organized information that follows a predefined format and resides in fixed fields within a record or file.
 - **Unstructured Data:** Unstructured data lacks a specific structure and doesn’t neatly fit into databases.
+
+    ![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f69c77040c5f20d0ef9c97519f416046b3f7e595/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W1%20-%20Intoduction%20to%20Deep%20Learning/Week%201%20Introduction%20to%20Deep%20Learning/Untitled%203.png?raw=true)
     
-    ![Untitled](Week%201%20Introduction%20to%20Deep%20Learning%20b69c69ca582a4c30b458197ca3cd0ea7/Untitled%203.png)
     
 
 ## Why is Deep Learning taking off?
 
-![Untitled](Week%201%20Introduction%20to%20Deep%20Learning%20b69c69ca582a4c30b458197ca3cd0ea7/Untitled%204.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f69c77040c5f20d0ef9c97519f416046b3f7e595/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W1%20-%20Intoduction%20to%20Deep%20Learning/Week%201%20Introduction%20to%20Deep%20Learning/Untitled%204.png?raw=true)
 
 - In traditional machine learning algorithm, its found that when the size of training data reached certain size, the performance of the model would not increase.
 - In Neural Network, the larger NN will increase in performance when data size increase. Therefore larger NN had been used as data size had surged as a result from digitalize.
 
-![Untitled](Week%201%20Introduction%20to%20Deep%20Learning%20b69c69ca582a4c30b458197ca3cd0ea7/Untitled%205.png)
+![alt text](https://github.com/potato0o/coursera-deep-learning-specialization/blob/f69c77040c5f20d0ef9c97519f416046b3f7e595/C1%20-%20Neural%20Networks%20and%20Deep%20Learning/W1%20-%20Intoduction%20to%20Deep%20Learning/Week%201%20Introduction%20to%20Deep%20Learning/Untitled%205.png?raw=true)
 
-- The significate improvement in data, computation and algorithms had greatly boost the development and employment of deep learning.
+- The significant improvement in data, computation and algorithms has dramatically boosted the development and employment of deep learning.
