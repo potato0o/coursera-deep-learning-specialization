@@ -32,7 +32,7 @@ Gradient descent can vary based on the number of training patterns used to calcu
         - **[Adam (Adaptive Moment Estimation):** Adam combines EWMA of gradients and squared gradients to adaptively adjust learning rates3](https://medium.com/@tobias-chc/exponentially-weighted-average-5eed00181a09).
     - Using some form of exponentially weighted average can be beneficial over simple gradient descent, especially in neural networks where noisy gradients can impact training efficiency and stability.
     
-    ![Untitled](Optimization%20Algorithm/Untitled%201.png)
+    ![Untitled]([Optimization%20Algorithm/Untitled%201.png])
     
     1. **Bias Correction:**
     - To correct this bias, we can remove the effect of the initial guess (bias) from the moving average.
